@@ -5,8 +5,10 @@ import { FeaturesSection } from "@/components/features-section-2";
 import { Testimonials } from "@/components/testimonials";
 import { Faq } from "@/components/faq";
 import { Pricing } from "@/components/pricing";
-import { CtaSection } from "@/components/cta-section";
+import { Newcta } from "@/components/newcta";
+import { Callout } from "@/components/callout";
 import { Footer } from "@/components/footer";
+import { Tada } from "@/components/tada";
 
 export default function HomePage() {
   return (
@@ -15,10 +17,12 @@ export default function HomePage() {
       <Hero />
       <Features />
       <FeaturesSection />
-      <Testimonials />
+      <Callout />
+      {/* <Testimonials /> */}
       <Faq />
+      <Tada />
       <Pricing />
-      <CtaSection />
+      <Newcta />
       <Footer />
     </>
   );

@@ -8,12 +8,12 @@ export function CtaSection() {
   return (
     <section className="py-20">
       <div className="container">
-        <div className="flex flex-col items-center bg-card px-10 rounded-2xl py-20 gap-x-6 md:flex-row gap-y-14 border">
-          <div className="flex items-start flex-col basis-3/5 gap-6">
-            <h2 className="font-heading text-3xl font-semibold tracking-tight text-balance sm:text-5xl max-w-2xl text-left">
+        <div className="flex items-center rounded-2xl border bg-card px-10 py-20 md:flex-row">
+          <div className="flex basis-3/5 flex-col items-start gap-6">
+            <h2 className="text-left font-heading text-3xl font-semibold tracking-tight sm:text-5xl">
               The smarter way to grow your startup
             </h2>
-            <p className="text-lg text-muted-foreground max-w-lg sm:text-xl text-left">
+            <p className=" text-left text-lg text-muted-foreground sm:text-xl">
               Analyze with ease. Export to dashboards and custom insights&nbsp; reports. Visualize
               without limits.
             </p>
@@ -26,9 +26,6 @@ export function CtaSection() {
               <Link href="#">Get Started</Link>
               <ChevronRight size={16} />
             </Button>
-          </div>
-          <div className="relative basis-2/5 bg-primary rounded-2xl">
-            <Image alt="Image" src="/images/chart.png" width={1000} height={698} />
           </div>
         </div>
       </div>

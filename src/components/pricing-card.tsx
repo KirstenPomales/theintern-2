@@ -8,7 +8,7 @@ import { cn } from "@/lib/utils";
 interface PricingCardProps {
   name: string;
   description: string;
-  price: number;
+  price: string;
   isMostPopular: boolean;
   feature1: string;
   feature2: string;
@@ -48,10 +48,8 @@ export function PricingCard({
           )}
         </div>
         <div>
-          <span className="font-heading text-5xl font-semibold">${price}</span>
-          <span className="text-muted-foreground font-semibold ml-2 text-xl font-heading">
-            Monthly
-          </span>
+          <span className="font-heading text-5xl font-semibold">{price}</span>
+          <span className="text-muted-foreground font-semibold ml-2 text-xl font-heading"></span>
         </div>
         <p className="text-muted-foreground mt-1">{description}</p>
       </div>
@@ -64,7 +62,7 @@ export function PricingCard({
           <PricingFeatureItem text={feature5} />
         </ul>
         <Button size="lg" asChild className="font-semibold">
-          <a href="#">Get started</a>
+          <a href="#">Join the Waitlist</a>
         </Button>
       </div>
     </Card>
