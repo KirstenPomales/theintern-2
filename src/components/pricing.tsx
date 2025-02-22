@@ -10,7 +10,7 @@ export function Pricing() {
             Automate your marketing for less
           </h2>
         </div>
-        <p className="text-lg text-muted-foreground max-w-lg text-center sm:text-xl"></p>
+        <p className="text-lg text-muted-foreground max-w-lg text-center sm:text-xl">s</p>
         <div className="mt-7 grid w-full grid-cols-1 lg:grid-cols-2 gap-5">
           <PricingCard
             name="Junior Intern"

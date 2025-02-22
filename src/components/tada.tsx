@@ -14,7 +14,7 @@ export function Tada() {
             <Image alt="Image" src="/images/chart.png" width={1000} height={698} />
           </div>
 
-          <div className="flex basis-3/5 sm:ml-10 flex-col items-start gap-6">
+          <div className="flex basis-3/5 flex-col items-start gap-6 sm:ml-10">
             <Badge variant="outline" className="rounded-md bg-primary pl-1 text-primary-foreground">
               <span className="mr-2 rounded-sm bg-white px-1.5 py-0.5 text-primary">New</span>
               Coming soon →
@@ -24,8 +24,8 @@ export function Tada() {
             </h2>
 
             <p className="text-left text-lg text-muted-foreground sm:text-xl">
-              We're partnering with{" "}
-              <a href="#" className="text-primary font-bold" target="_blank">
+              We&apos;re partnering with{" "}
+              <a href="#" className="font-bold text-primary" target="_blank">
                 TaDa
               </a>
               , ________, to bring your intern generative AI. Upload images of your mascot and let
