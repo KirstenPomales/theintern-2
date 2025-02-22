@@ -2,7 +2,7 @@ import { FeatureCard } from "@/components/feature-card";
 
 export function Features() {
   return (
-    <section className="relative bg-background py-20">
+    <section id="about" className="relative bg-background py-20">
       <div className="container mx-auto flex flex-col gap-12">
         <div className="flex w-full flex-col justify-between gap-4 lg:flex-row lg:items-end">
           <h2 className="flex-1 text-balance text-left font-heading text-3xl font-semibold tracking-tight sm:text-5xl">

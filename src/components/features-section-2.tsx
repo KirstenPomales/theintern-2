@@ -5,7 +5,7 @@ import { SmallFeatureCard } from "@/components/small-feature-card";
 
 export function FeaturesSection() {
   return (
-    <section className="relative overflow-hidden bg-background py-20">
+    <section id="features" className="relative overflow-hidden bg-background py-20">
       <div className="container flex flex-col gap-20 lg:flex-row lg:items-end">
         <div className="flex flex-1 flex-col gap-7">
           <div className="flex flex-col gap-2">

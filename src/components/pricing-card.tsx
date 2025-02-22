@@ -33,7 +33,7 @@ export function PricingCard({
   return (
     <Card
       className={cn(
-        "relative rounded-2xl shadow-none flex flex-col justify-between py-8 px-7 gap-7 border",
+        "relative flex flex-col justify-between gap-7 rounded-2xl border px-7 py-8 shadow-none",
         className,
       )}
     >
@@ -41,7 +41,7 @@ export function PricingCard({
         <div className="flex items-center justify-between">
           <h4 className="font-heading text-2xl font-semibold text-foreground">{name}</h4>
           {isMostPopular === true && (
-            <span className="rounded-full bg-primary px-3 text-center text-sm font-semibold text-primary-foreground py-1 inline-flex items-center gap-1">
+            <span className="inline-flex items-center gap-1 rounded-full bg-primary px-3 py-1 text-center text-sm font-semibold text-primary-foreground">
               <Sparkle size={16} className="fill-primary-foreground" />
               Popular
             </span>
@@ -49,9 +49,9 @@ export function PricingCard({
         </div>
         <div>
           <span className="font-heading text-5xl font-semibold">{price}</span>
-          <span className="text-muted-foreground font-semibold ml-2 text-xl font-heading"></span>
+          <span className="ml-2 font-heading text-xl font-semibold text-muted-foreground"></span>
         </div>
-        <p className="text-muted-foreground mt-1">{description}</p>
+        <p className="mt-1 text-muted-foreground">{description}</p>
       </div>
       <div className="flex flex-col gap-8">
         <ul className="space-y-2">
@@ -61,8 +61,10 @@ export function PricingCard({
           <PricingFeatureItem text={feature4} />
           <PricingFeatureItem text={feature5} />
         </ul>
-        <Button size="lg" asChild className="font-semibold">
-          <a href="#">Join the Waitlist</a>
+        <Button asChild size="lg" className="gap-2 font-semibold">
+          <a href="https://tally.so/r/mDZZy5" target="_blank" rel="noopener noreferrer">
+            Join the waitlist
+          </a>
         </Button>
       </div>
     </Card>

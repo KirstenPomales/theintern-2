@@ -18,14 +18,10 @@ export function Callout() {
               accounts. They&apos;re a valued part of your community: with a customizable
               personality and knowledge of current events.
             </p>
-            <Button
-              size="lg"
-              asChild={false}
-              variant="default"
-              className="cursor-pointer gap-2 font-semibold"
-            >
-              <Link href="#">Join the Waitlist</Link>
-              <ChevronRight size={16} />
+            <Button asChild size="lg" className="gap-2 font-semibold">
+              <a href="https://tally.so/r/mDZZy5" target="_blank" rel="noopener noreferrer">
+                Join the waitlist
+              </a>
             </Button>
           </div>
           <div className="relative basis-2/5 rounded-2xl bg-primary">

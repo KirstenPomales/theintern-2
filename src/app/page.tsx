@@ -16,12 +16,14 @@ export default function HomePage() {
       <Header />
       <Hero />
       <Features />
-      <FeaturesSection />
       <Callout />
+      <FeaturesSection />
+
       {/* <Testimonials /> */}
-      <Faq />
       <Tada />
-      <Pricing />
+      <Faq />
+
+      {/* <Pricing /> */}
       <Newcta />
       <Footer />
     </>

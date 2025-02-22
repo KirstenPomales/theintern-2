@@ -16,7 +16,7 @@ export function Tada() {
 
           <div className="flex basis-3/5 flex-col items-start gap-6 sm:ml-10">
             <Badge variant="outline" className="rounded-md bg-primary pl-1 text-primary-foreground">
-              <span className="mr-2 rounded-sm bg-white px-1.5 py-0.5 text-primary">New</span>
+              <span className="mr-2 rounded-sm bg-white px-1.5 py-0.5 text-primary">Alert</span>
               Coming soon →
             </Badge>
             <h2 className="max-w-2xl text-balance text-left font-heading text-3xl font-semibold tracking-tight sm:text-5xl">
@@ -25,11 +25,11 @@ export function Tada() {
 
             <p className="text-left text-lg text-muted-foreground sm:text-xl">
               We&apos;re partnering with{" "}
-              <a href="#" className="font-bold text-primary" target="_blank">
+              <a href="https://ta-da.io/" className="font-bold text-primary" target="_blank">
                 TaDa
               </a>
-              , ________, to bring your intern generative AI. Upload images of your mascot and let
-              your intern create custom graphics that give context to their posts!
+              , an AI dataset ecosystem, to bring your intern generative AI. Upload images of your
+              mascot and let your intern create custom graphics that give context to their posts!
             </p>
             {/* <Button
               size="lg"

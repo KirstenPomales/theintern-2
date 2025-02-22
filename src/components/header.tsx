@@ -16,14 +16,14 @@ export function Header() {
             <div className="flex-1">
               <Link href="/" className="flex items-center gap-3">
                 <Image alt="Image" src="/images/the-intern-hat.png" width={50} height={50} />
-                <Image alt="Image" src="/images/theintern-logo-dark.png" width={100} height={100} />
+                <Image alt="Image" src="/images/theinternblue.png" width={100} height={100} />
               </Link>
             </div>
             <div className="flex flex-1 items-center justify-center gap-6">
               <nav className="hidden items-center justify-end gap-10 md:flex">
-                <NavItem href="@about" label="About" />
-                <NavItem href="@features" label="Features" />
-                <NavItem href="@pricing" label="Pricing" />
+                <NavItem href="#about" label="About" />
+                <NavItem href="#features" label="Features" />
+                {/* <NavItem href="@pricing" label="Pricing" /> */}
                 <NavItem href="https://x.com/theinterndotfun" label="Socials" />
               </nav>
             </div>
@@ -34,24 +34,24 @@ export function Header() {
                     Log In
                   </Link>
                 </Button> */}
-                <Button asChild className="font-semibold">
-                  <Link href="#" className="cursor-pointer">
-                    Join the Waitlist
-                  </Link>
+                <Button asChild size="lg" className="gap-2 font-semibold">
+                  <a href="https://tally.so/r/mDZZy5" target="_blank" rel="noopener noreferrer">
+                    Join the waitlist
+                  </a>
                 </Button>
               </div>
             </div>
             <MobileNavbar>
               <div className="container mt-6 rounded-b-lg bg-background py-4 text-foreground shadow-xl">
                 <nav className="flex flex-col gap-1 pt-2">
-                  <MobileNavItem href="@about" label="About" />
-                  <MobileNavItem href="@features" label="Features" />
-                  <MobileNavItem href="@pricing" label="Pricing" />
+                  <MobileNavItem href="#about" label="About" />
+                  <MobileNavItem href="#features" label="Features" />
+                  {/* <MobileNavItem href="@pricing" label="Pricing" /> */}
                   <MobileNavItem href="https://x.com/theinterndotfun" label="Socials" />
-                  <Button size="lg" asChild className="mt-2 w-full">
-                    <Link href="#" className="cursor-pointer">
-                      Join the Waitlist
-                    </Link>
+                  <Button asChild size="lg" className="gap-2 font-semibold">
+                    <a href="https://tally.so/r/mDZZy5" target="_blank" rel="noopener noreferrer">
+                      Join the waitlist
+                    </a>
                   </Button>
                 </nav>
               </div>

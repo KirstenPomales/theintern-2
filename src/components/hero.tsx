@@ -23,8 +23,10 @@ export function Hero() {
             assistant
           </p>
           <div className="mb-16 flex grid-cols-2 items-center gap-4">
-            <Button size="lg" className="gap-2 font-semibold">
-              Join the waitlist
+            <Button asChild size="lg" className="gap-2 font-semibold">
+              <a href="https://tally.so/r/mDZZy5" target="_blank" rel="noopener noreferrer">
+                Join the waitlist
+              </a>
             </Button>
           </div>
         </div>
