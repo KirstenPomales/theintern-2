@@ -30,6 +30,37 @@ export function Hero() {
             </Button>
           </div>
         </div>
+        <div className="mb-20 rounded-2xl bg-primary p-5">
+          <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
+            <div className="w-full">
+              <Image
+                alt="Feature 1"
+                src="/images/intern-hero-1.png"
+                width={400}
+                height={250}
+                className="h-auto w-full rounded-lg object-cover"
+              />
+            </div>
+            <div className="w-full">
+              <Image
+                alt="Feature 2"
+                src="/images/intern-hero-2.png"
+                width={400}
+                height={250}
+                className="h-auto w-full rounded-lg object-cover"
+              />
+            </div>
+            <div className="w-full">
+              <Image
+                alt="Feature 3"
+                src="/images/intern-hero-3.png"
+                width={400}
+                height={250}
+                className="h-auto w-full rounded-lg object-cover"
+              />
+            </div>
+          </div>
+        </div>
         <div className="relative mx-2 flex items-center justify-center gap-12 border-x py-6 md:mx-10">
           <div className="flex flex-wrap justify-center gap-x-16 gap-y-4">
             <div className="flex items-center justify-center gap-2">
@@ -53,9 +84,6 @@ export function Hero() {
             size={20}
             className="absolute right-0 top-0 -translate-y-1/2 translate-x-1/2 fill-foreground"
           />
-        </div>
-        <div className="rounded-2xl bg-primary p-10">
-          <Image alt="Image" src="/images/hero.png" width={1300} height={698} />
         </div>
       </div>
     </section>

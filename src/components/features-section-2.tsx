@@ -42,7 +42,7 @@ export function FeaturesSection() {
           </div>
         </div>
         <div className="relative flex-1 rounded-2xl bg-primary p-10">
-          <Image alt="Image" src="/images/notifications.png" width={1000} height={698} />
+          <Image alt="Image" src="/images/never-sleep-1.png" width={1000} height={698} />
         </div>
       </div>
     </section>

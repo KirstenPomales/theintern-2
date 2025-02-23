@@ -13,18 +13,18 @@ export function Features() {
             Automate your community engagement with The Intern.
           </p>
         </div>
-        <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid grid-cols-1 gap-8 sm:grid-cols-3 lg:grid-cols-3">
           <FeatureCard
-            image="/images/filters.png"
+            image="/images/features-1.png"
             title="Configure your intern's personality & interests"
           />
           <FeatureCard
-            image="/images/calendar.png"
+            image="/images/features-2.png"
             title="Choose specific topics & accounts to engage with"
           />
           <FeatureCard
-            image="/images/notification.png"
-            title="Connect your intern to X, and watch them go!"
+            image="/images/features-3.png"
+            title="Connect your intern to X, and watch them engage"
           />
         </div>
       </div>

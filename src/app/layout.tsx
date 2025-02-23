@@ -2,6 +2,7 @@ import "./globals.css";
 
 import type { Metadata } from "next";
 import { Inter, Schibsted_Grotesk } from "next/font/google";
+import { PrivateBetaBanner } from "@/components/PrivateBetaBanner";
 
 import { cn } from "@/lib/utils";
 
@@ -42,6 +43,13 @@ export default function RootLayout({
           fontHeading.variable,
         )}
       >
+        <PrivateBetaBanner
+          message="Welcome to The Intern private beta! Get exclusive early access now."
+          link={{
+            text: "Join the waitlist",
+            href: "https://tally.so/r/mDZZy5",
+          }}
+        />
         {children}
       </body>
     </html>

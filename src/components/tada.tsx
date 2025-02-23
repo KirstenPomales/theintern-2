@@ -10,8 +10,8 @@ export function Tada() {
     <section className="py-20">
       <div className="container">
         <div className="flex flex-col items-center gap-x-6 gap-y-14 rounded-2xl border bg-card px-10 py-20 md:flex-row">
-          <div className="relative basis-2/5 rounded-2xl bg-primary">
-            <Image alt="Image" src="/images/chart.png" width={1000} height={698} />
+          <div className="relative basis-2/5 rounded-2xl ">
+            <Image alt="Image" src="/images/generative-images.png" width={1000} height={698} />
           </div>
 
           <div className="flex basis-3/5 flex-col items-start gap-6 sm:ml-10">
@@ -29,7 +29,7 @@ export function Tada() {
                 TaDa
               </a>
               , an AI dataset ecosystem, to bring your intern generative AI. Upload images of your
-              mascot and let your intern create custom graphics that give context to their posts!
+              mascot and let your intern create custom graphics for their posts!
             </p>
             {/* <Button
               size="lg"

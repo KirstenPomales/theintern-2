@@ -14,10 +14,10 @@ export function Footer() {
           <div className="hidden sm:flex">
             <Link href="/" className="flex items-center gap-3">
               <Image alt="Image" src="/images/the-intern-hat.png" width={50} height={50} />
-              <Image alt="Image" src="/images/theintern-logo-dark.png" width={100} height={100} />
+              <Image alt="Image" src="/images/theinternblue.png" width={100} height={100} />
             </Link>
           </div>
-          <div className="flex text-center items-center gap-5">
+          <div className="flex items-center gap-5 text-center">
             <p className=" text-sm  text-muted-foreground">© The Intern 2025</p>
             <a href="#" className="text-muted-foreground hover:text-foreground">
               <svg viewBox="0 0 438.549 438.549" className="">

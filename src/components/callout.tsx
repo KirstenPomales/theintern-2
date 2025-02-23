@@ -24,8 +24,8 @@ export function Callout() {
               </a>
             </Button>
           </div>
-          <div className="relative basis-2/5 rounded-2xl bg-primary">
-            <Image alt="Image" src="/images/chart.png" width={1000} height={698} />
+          <div className="relative basis-2/5 rounded-2xl ">
+            <Image alt="Image" src="/images/community-things.png" width={1000} height={698} />
           </div>
         </div>
       </div>
