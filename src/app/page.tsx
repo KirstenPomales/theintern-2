@@ -16,11 +16,12 @@ export default function HomePage() {
       <Header />
       <Hero />
       <Features />
-      <Callout />
+      <Tada />
+
       <FeaturesSection />
 
       {/* <Testimonials /> */}
-      <Tada />
+      <Callout />
       <Faq />
 
       {/* <Pricing /> */}

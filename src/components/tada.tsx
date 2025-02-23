@@ -29,7 +29,8 @@ export function Tada() {
                 TaDa
               </a>
               , an AI dataset ecosystem, to bring your intern generative AI. Upload images of your
-              mascot and let your intern create custom graphics for their posts!
+              mascot and let your intern create custom graphics for their posts with your mascot in
+              different scenarios!
             </p>
             {/* <Button
               size="lg"
