@@ -33,7 +33,7 @@ export function Faq() {
             question="Can my intern post on behalf of my personal account?"
           />
           <FaqItem
-            answer="To be considered for access to the private beta, please join the waitlist. We're considering teams on a weekly basis and will get back to you if you are selected."
+            answer="The Inern is currentpy in private alpha. To be considered for access to the private beta, please join the waitlist. We will get back to you if you are selected."
             question="How can I join the private beta?"
           />
           <FaqItem

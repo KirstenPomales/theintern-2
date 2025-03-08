@@ -22,7 +22,7 @@ export const PrivateBetaBanner: React.FC<BannerProps> = ({ message, link }) => {
       <div className="container mx-auto flex items-center justify-between">
         <div className="flex grow items-center justify-center">
           <p className="text-sm font-medium">
-            👀 The Intern is in private beta →
+            👀 The Intern is in private alpha →
             {link && (
               <Link href={link.href} className="ml-2 underline hover:text-primary-foreground/90">
                 {link.text}
@@ -40,7 +40,7 @@ export const PrivateBetaBanner: React.FC<BannerProps> = ({ message, link }) => {
 };
 
 export const defaultBannerProps: BannerProps = {
-  message: "The Intern is in private beta! Join the waitlist for early access.",
+  message: "The Intern is in private alpha! Join the waitlist for early access.",
   link: {
     text: "Join waitlist",
     href: "/waitlist",
