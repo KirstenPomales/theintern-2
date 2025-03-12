@@ -37,7 +37,7 @@ export function FeaturesSection() {
             <SmallFeatureCard
               icon={DollarSign}
               title="Quality content"
-              description="Low-quality social media admins cost $1000s per month. The Intern produces top-tier content for a better price."
+              description="Product content with a consistent and compelling brand voice - like it was written by a senior marketer."
             />
           </div>
         </div>
