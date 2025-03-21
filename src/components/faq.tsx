@@ -25,6 +25,10 @@ export function Faq() {
         </div>
         <Accordion type="single" collapsible className="flex w-full max-w-3xl flex-col gap-4">
           <FaqItem
+            answer="Today, you can create everything from community ambassador accounts to language-specific accounts, news accounts, intern accounts, and more."
+            question="What kinds of accounts can be made with The Intern?"
+          />
+          <FaqItem
             answer="Today, your intern can manage accounts on X. We will be adding more social media platforms in the future."
             question="What social media platforms can my intern manage accounts on?"
           />
@@ -33,7 +37,7 @@ export function Faq() {
             question="Can my intern post on behalf of my personal account?"
           />
           <FaqItem
-            answer="The Inern is currentpy in private alpha. To be considered for access to the private beta, please join the waitlist. We will get back to you if you are selected."
+            answer="The Inern is currently in private alpha. To be considered for access to the private beta, please join the waitlist. We will get back to you if you are selected."
             question="How can I join the private beta?"
           />
           <FaqItem

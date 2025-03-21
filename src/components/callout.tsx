@@ -18,6 +18,28 @@ export function Callout() {
               accounts. They&apos;re a valued part of your community: with a customizable
               personality and knowledge of current events.
             </p>
+
+            <div className="mb-6 flex w-full gap-4">
+              <div className="flex-1 rounded-xl border bg-background p-6">
+                <h3 className="mb-2 font-semibold">Multi-Lingual</h3>
+                <p className="text-sm text-muted-foreground">
+                  Configure your agent&apos;s language & expand your geographic reach
+                </p>
+              </div>
+              <div className="flex-1 rounded-xl border bg-background p-6">
+                <h3 className="mb-2 font-semibold">Knowledgeable</h3>
+                <p className="text-sm text-muted-foreground">
+                  Your agent knows your tech, resources, and the who&apos;s-who of your ecosystem
+                </p>
+              </div>
+              <div className="flex-1 rounded-xl border bg-background p-6">
+                <h3 className="mb-2 font-semibold">Authentic</h3>
+                <p className="text-sm text-muted-foreground">
+                  Each intern has a unique personality that gets deeper as they engage
+                </p>
+              </div>
+            </div>
+
             <Button asChild size="lg" className="gap-2 font-semibold">
               <a href="https://tally.so/r/mDZZy5" target="_blank" rel="noopener noreferrer">
                 Join the waitlist
