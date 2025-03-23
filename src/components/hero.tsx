@@ -19,8 +19,8 @@ export function Hero() {
             Meet your AI marketing intern
           </h1>
           <p className="max-w-md text-center text-lg text-muted-foreground sm:text-xl">
-            Automate your community engagement on X with The Intern: your fully autonamous marketing
-            assistant
+            Automate your community engagement on X with The Intern: your fully autonomous marketing
+            AI Agent
           </p>
           <div className="mb-16 flex grid-cols-2 items-center gap-4">
             <Button asChild size="lg" className="gap-2 font-semibold">

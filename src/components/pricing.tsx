@@ -3,15 +3,15 @@ import { PricingCard } from "@/components/pricing-card";
 export function Pricing() {
   return (
     <section className="py-20">
-      <div className="flex flex-col items-center gap-6 container">
+      <div className="container flex flex-col items-center gap-6">
         <div className="flex flex-col gap-2">
-          <span className="font-bold text-primary text-center">Pricing</span>
-          <h2 className="font-heading text-3xl font-semibold tracking-tight text-balance text-center sm:text-5xl max-w-2xl">
+          <span className="text-center font-bold text-primary">Pricing</span>
+          <h2 className="max-w-2xl text-balance text-center font-heading text-3xl font-semibold tracking-tight sm:text-5xl">
             Automate your marketing for less
           </h2>
         </div>
-        <p className="text-lg text-muted-foreground max-w-lg text-center sm:text-xl">s</p>
-        <div className="mt-7 grid w-full grid-cols-1 lg:grid-cols-2 gap-5">
+        <p className="max-w-lg text-center text-lg text-muted-foreground sm:text-xl">s</p>
+        <div className="mt-7 grid w-full grid-cols-1 gap-5 lg:grid-cols-2">
           <PricingCard
             name="Junior Intern"
             price="$2000/month"
@@ -20,7 +20,7 @@ export function Pricing() {
             feature3="Unlimited replies"
             feature4="Trending news awareness"
             feature5="Manage one X account"
-            description="For creating autonamous ambassadors for your community, to create organic engagement."
+            description="For creating autonomous ambassadors for your community, to create organic engagement."
             isMostPopular
           />
           <PricingCard
