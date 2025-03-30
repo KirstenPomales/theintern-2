@@ -26,7 +26,7 @@ export function FeaturesSection() {
             />
             <SmallFeatureCard
               icon={Zap}
-              title="Reply guy mode"
+              title="Engagement mode"
               description="Your intern reacts to new posts in record time: being first comment on posts from thought leaders."
             />
             <SmallFeatureCard

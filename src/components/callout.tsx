@@ -40,14 +40,25 @@ export function Callout() {
               </div>
             </div>
 
-            <Button asChild size="lg" className="gap-2 font-semibold">
-              <a href="https://tally.so/r/mDZZy5" target="_blank" rel="noopener noreferrer">
-                Join the waitlist
-              </a>
-            </Button>
+            <div className="flex gap-4">
+              <Button asChild size="lg" className="gap-2 font-semibold">
+                <a href="https://tally.so/r/mDZZy5" target="_blank" rel="noopener noreferrer">
+                  Join the waitlist
+                </a>
+              </Button>
+              <Button
+                asChild
+                size="lg"
+                className="gap-2 bg-yellow-300 font-semibold text-black hover:bg-yellow-400"
+              >
+                <a href="https://x.com/pudgyintern_" target="_blank" rel="noopener noreferrer">
+                  Meet an Intern
+                </a>
+              </Button>
+            </div>
           </div>
           <div className="relative basis-2/5 rounded-2xl ">
-            <Image alt="Image" src="/images/community-things.png" width={1000} height={698} />
+            <Image alt="Image" src="/images/pudgy-intern-two.png" width={400} height={398} />
           </div>
         </div>
       </div>
