@@ -23,11 +23,11 @@ export function FeaturesLarge() {
         </p>
 
         {/* Section Feature Config Personality */}
-        <div className="flex flex-row items-center gap-x-6 gap-y-14 rounded-2xl   px-10 py-20 md:flex-row">
-          <div className="relative basis-2/5 overflow-hidden rounded-2xl">
+        <div className="flex flex-col-reverse items-center gap-x-6 gap-y-14 rounded-2xl px-10 py-20 md:flex-row">
+          <div className="relative w-full overflow-hidden rounded-2xl md:basis-2/5">
             <img alt="Image" src="/images/character.gif" className="h-auto w-full rounded-2xl" />
           </div>
-          <div className="flex basis-3/5 flex-col items-start gap-6 sm:ml-10">
+          <div className="flex w-full flex-col items-start gap-6 md:ml-10 md:basis-3/5">
             <Badge variant="outline" className="rounded-md bg-primary pl-4 text-primary-foreground">
               Set Up Personality →
             </Badge>
@@ -52,8 +52,8 @@ export function FeaturesLarge() {
         </div>
 
         {/* Section Feature Twitter Config */}
-        <div className="flex flex-row items-center gap-x-6 gap-y-14 rounded-2xl   px-10 py-20 md:flex-row">
-          <div className="flex basis-3/5 flex-col items-start gap-6 sm:ml-10">
+        <div className="flex flex-col items-center gap-x-6 gap-y-14 rounded-2xl px-10 py-20 md:flex-row">
+          <div className="flex w-full flex-col items-start gap-6 md:ml-10 md:basis-3/5">
             <Badge variant="outline" className="rounded-md bg-primary pl-4 text-primary-foreground">
               Configure Rules →
             </Badge>
@@ -76,7 +76,7 @@ export function FeaturesLarge() {
                 <ChevronRight size={16} />
               </Button> */}
           </div>
-          <div className="relative basis-2/5 overflow-hidden rounded-2xl">
+          <div className="relative w-full overflow-hidden rounded-2xl md:basis-2/5">
             <img
               alt="Image"
               src="/images/twitter-configs.gif"
@@ -86,11 +86,11 @@ export function FeaturesLarge() {
         </div>
 
         {/* Section Feature Brain */}
-        <div className="flex flex-row items-center gap-x-6 gap-y-14 rounded-2xl  px-10 py-20 md:flex-row">
-          <div className="relative basis-2/5 overflow-hidden rounded-2xl">
+        <div className="flex flex-col-reverse items-center gap-x-6 gap-y-14 rounded-2xl px-10 py-20 md:flex-row">
+          <div className="relative w-full overflow-hidden rounded-2xl md:basis-2/5">
             <img alt="Image" src="/images/brain.gif" className="h-auto w-full rounded-2xl" />
           </div>
-          <div className="flex basis-3/5 flex-col items-start gap-6 sm:ml-10">
+          <div className="flex w-full flex-col items-start gap-6 md:ml-10 md:basis-3/5">
             <Badge variant="outline" className="rounded-md bg-primary pl-4 text-primary-foreground">
               Set Goals →
             </Badge>
@@ -116,8 +116,8 @@ export function FeaturesLarge() {
         </div>
 
         {/* Section Feature Twitter Config */}
-        <div className="flex flex-row items-center gap-x-6 gap-y-14 rounded-2xl   px-10 py-20 md:flex-row">
-          <div className="flex basis-3/5 flex-col items-start gap-6 sm:ml-10">
+        <div className="flex flex-col items-center gap-x-6 gap-y-14 rounded-2xl px-10 py-20 md:flex-row">
+          <div className="flex w-full flex-col items-start gap-6 md:ml-10 md:basis-3/5">
             <Badge variant="outline" className="rounded-md bg-primary pl-4 text-primary-foreground">
               Launch →
             </Badge>
@@ -139,7 +139,7 @@ export function FeaturesLarge() {
                 <ChevronRight size={16} />
               </Button> */}
           </div>
-          <div className="relative basis-2/5 overflow-hidden rounded-2xl">
+          <div className="relative w-full overflow-hidden rounded-2xl md:basis-2/5">
             <img alt="Image" src="/images/pudgy.gif" className="h-auto w-full rounded-2xl" />
           </div>
         </div>
