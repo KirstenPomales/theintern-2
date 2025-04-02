@@ -9,6 +9,8 @@ import { Newcta } from "@/components/newcta";
 import { Callout } from "@/components/callout";
 import { Footer } from "@/components/footer";
 import { Tada } from "@/components/tada";
+import { MarqueeSection } from "@/components/marquee";
+import { FeaturesLarge } from "@/components/features-large";
 
 export default function HomePage() {
   return (
@@ -16,12 +18,14 @@ export default function HomePage() {
       <Header />
       <Hero />
       <Features />
+      <FeaturesLarge />
+
+      <Callout />
+      <FeaturesSection />
       <Tada />
 
-      <FeaturesSection />
-
       {/* <Testimonials /> */}
-      <Callout />
+
       <Faq />
 
       {/* <Pricing /> */}

@@ -26,7 +26,7 @@ export function FeaturesSection() {
             />
             <SmallFeatureCard
               icon={Zap}
-              title="Reply guy mode"
+              title="Engagement mode"
               description="Your intern reacts to new posts in record time: being first comment on posts from thought leaders."
             />
             <SmallFeatureCard
@@ -41,7 +41,7 @@ export function FeaturesSection() {
             />
           </div>
         </div>
-        <div className="relative flex-1 rounded-2xl bg-primary p-10">
+        <div className="relative hidden flex-1 rounded-2xl bg-primary p-10 lg:block">
           <Image alt="Image" src="/images/never-sleep-1.png" width={1000} height={698} />
         </div>
       </div>
