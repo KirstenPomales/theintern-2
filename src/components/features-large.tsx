@@ -14,7 +14,7 @@ export function FeaturesLarge() {
             The Intern Dashboard
           </span>
           <h1 className="pb-5 text-center font-heading text-3xl font-bold  tracking-tight sm:text-5xl">
-            Create & Manage Your Rockstar Intern&nbsp;
+            Create an Intern to Run Your Accounts&nbsp;
           </h1>
         </div>
         <p className="flex-1 text-center text-lg text-muted-foreground">
