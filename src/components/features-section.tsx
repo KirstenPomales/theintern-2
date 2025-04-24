@@ -48,7 +48,7 @@ export function Features() {
       <div className="container mx-auto flex flex-col gap-12">
         <div className="flex w-full flex-col justify-between gap-4 lg:flex-row lg:items-end">
           <h2 className="flex-1 text-balance text-left font-heading text-3xl font-semibold tracking-tight sm:text-5xl">
-            The perfect Intern, <br></br>designed for you
+            Create autonamous <br></br>brand & ambassador accounts
           </h2>
           <p className="flex-1 text-lg text-muted-foreground">
             Hiring social media managers, content-creator devrels, and managing community advocates
@@ -56,9 +56,12 @@ export function Features() {
           </p>
         </div>
         <div className="grid grid-cols-1 gap-8 sm:grid-cols-3 lg:grid-cols-3">
-          <FeatureCard title="Developer relations and tech help Interns" tweet={devRelTweet} />
-          <FeatureCard title="Community management and onboarding Interns" tweet={communityTweet} />
-          <FeatureCard title="Ambassadors and second language Interns" tweet={ambassadorTweet} />
+          <FeatureCard title="Developer relations and tech help accounts" tweet={devRelTweet} />
+          <FeatureCard
+            title="Community management and onboarding accounts"
+            tweet={communityTweet}
+          />
+          <FeatureCard title="Ambassadors and second language accounts" tweet={ambassadorTweet} />
         </div>
       </div>
     </section>

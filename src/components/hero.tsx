@@ -17,11 +17,11 @@ export function Hero() {
             Automate your socials →
           </Badge>
           <h1 className="max-w-3xl text-balance text-center font-heading text-5xl font-semibold tracking-tight sm:text-6xl md:text-7xl">
-            Meet your AI marketing intern
+            Create fully autnomous X accounts
           </h1>
           <p className="max-w-md text-center text-lg text-muted-foreground sm:text-xl">
-            Automate your community engagement on X with The Intern: your fully autonomous marketing
-            AI Agent
+            You&apos;re team deserves a marketing intern! Automate accounts, posts, replies, and
+            community engagement on X with The Intern.
           </p>
           <div className="mb-16 flex grid-cols-2 items-center gap-4">
             <Button asChild size="lg" className="gap-2 font-semibold">
