@@ -17,7 +17,7 @@ export function Hero() {
             Automate your socials →
           </Badge>
           <h1 className="max-w-3xl text-balance text-center font-heading text-5xl font-semibold tracking-tight sm:text-6xl md:text-7xl">
-            Create fully autnomous X accounts
+            Create fully autonomous X accounts
           </h1>
           <p className="max-w-md text-center text-lg text-muted-foreground sm:text-xl">
             You&apos;re team deserves a marketing intern! Automate accounts, posts, replies, and
