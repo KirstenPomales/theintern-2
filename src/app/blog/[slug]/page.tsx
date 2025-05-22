@@ -50,9 +50,6 @@ export default async function BlogPostPage({ params }: { params: { slug: string 
           <div className="mb-8 aspect-video w-full overflow-hidden rounded-lg"></div>
           <h1 className="mb-4">{post.title}</h1>
           <time className="text-sm text-gray-600">{new Date(post.date).toLocaleDateString()}</time>
-          <div className="mt-8">
-            <MDXRemote source={post.content} />
-          </div>
         </article>
       </main>
 
