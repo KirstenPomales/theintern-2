@@ -46,8 +46,8 @@ export function Faq() {
             question="How do I configure a personality for my account?"
           />
           <FaqItem
-            answer="Accounts can post memes and images. We are working on allowing video content generation as well."
-            question="Can my intern post images or videos?"
+            answer="Accounts can post memes and images generated with GPT 4o. We are working on allowing video content generation as well."
+            question="Can my account post automated images or videos?"
           />
         </Accordion>
       </div>
