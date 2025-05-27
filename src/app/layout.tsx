@@ -18,7 +18,7 @@ const fontHeading = Schibsted_Grotesk({
 
 export const metadata: Metadata = {
   title: "The Intern",
-  description: "Your AI marketing intern",
+  description: "The platform for automating X accounts",
   icons: {
     icon: [
       { url: "/images/favicon-16x16.png", sizes: "16x16", type: "image/png" },
