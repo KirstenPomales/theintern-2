@@ -20,7 +20,7 @@ export function Hero() {
             Create fully autonomous X accounts
           </h1>
           <p className="max-w-md text-center text-lg text-muted-foreground sm:text-xl">
-            You deserves a marketing intern! Automate accounts, posts, replies, and community
+            You deserve a marketing intern! Automate accounts, posts, replies, and community
             engagement on X with The Intern.
           </p>
           <div className="mb-16 flex grid-cols-2 items-center gap-4">
