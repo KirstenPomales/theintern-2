@@ -19,12 +19,12 @@ export function SmallFeatureCard({
   className,
 }: SmallFeatureCardProps) {
   return (
-    <Card className={cn("rounded-2xl p-6 flex flex-col gap-2 border shadow-none", className)}>
-      <div className="items-center gap-2 flex">
-        <Icon className="h-5 w-5" />
+    <Card className={cn("flex flex-col gap-2 rounded-2xl border p-6 shadow-none", className)}>
+      <div className="flex items-center gap-2">
+        <Icon className="size-5" />
         <h3 className="font-heading font-semibold">{title}</h3>
       </div>
-      <p className="text-muted-foreground text-sm">{description}</p>
+      <p className="text-sm text-muted-foreground">{description}</p>
     </Card>
   );
 }

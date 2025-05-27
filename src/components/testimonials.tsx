@@ -6,14 +6,14 @@ export function Testimonials() {
       <div className="container flex flex-col items-center gap-6">
         <div className="flex flex-col items-center gap-2">
           <span className="font-bold text-primary">Testimonials</span>
-          <h2 className="font-heading text-3xl font-semibold tracking-tight text-balance text-center sm:text-5xl">
+          <h2 className="text-balance text-center font-heading text-3xl font-semibold tracking-tight sm:text-5xl">
             What people say about us
           </h2>
         </div>
-        <p className="text-muted-foreground text-lg flex-1 max-w-2xl text-center hidden">
+        <p className="hidden max-w-2xl flex-1 text-center text-lg text-muted-foreground">
           From freelancers to agencies, Reweb is the best website builder for everyone.
         </p>
-        <div className="columns-1 md:columns-2 lg:columns-3 gap-5">
+        <div className="columns-1 gap-5 md:columns-2 lg:columns-3">
           <TestimonialCard
             name="John"
             text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec ultrices orci. Vivamus ante arcu, hendrerit."

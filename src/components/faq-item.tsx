@@ -11,11 +11,11 @@ export function FaqItem({ question, answer, className }: FaqItemProps) {
   return (
     <AccordionItem
       value={question}
-      className={cn("border-b-0 px-8 bg-card rounded-2xl border", className)}
+      className={cn("rounded-2xl border border-b-0 bg-card px-8", className)}
     >
-      <AccordionTrigger className="text-left text-lg hover:no-underline [&&gt;svg]:hidden font-semibold [&[data-state=open]&gt;div&gt;svg&gt;path:first-child]:rotate-90 gap-3">
+      <AccordionTrigger className="gap-3 text-left text-lg font-semibold hover:no-underline [&>svg]:hidden [&[data-state=open]>div>svg>path:first-child]:rotate-90">
         {question}
-        <div className="size-10 rounded-[0.5rem] flex items-center justify-center shrink-0">
+        <div className="flex size-10 shrink-0 items-center justify-center rounded-[0.5rem]">
           <svg
             fill="none"
             stroke="currentColor"
