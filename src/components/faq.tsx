@@ -25,31 +25,28 @@ export function Faq() {
         </div>
         <Accordion type="single" collapsible className="flex w-full max-w-3xl flex-col gap-4">
           <FaqItem
-            answer="Today, you can create everything from community ambassador accounts to language-specific accounts, news accounts, intern accounts, and more."
-            question="What kinds of accounts can be made with The Intern?"
+            answer="You can automate personal accounts, brand accounts, or stand-alone accounts."
+            question="What kinds of accounts can I automate with The Intern?"
           />
           <FaqItem
-            answer="Today, your intern can manage accounts on X. We will be adding more social media platforms in the future."
-            question="What social media platforms can my intern manage accounts on?"
+            answer="Today, we support X/Twitter. We will be adding more social media platforms in the future."
+            question="What social media platforms can The Intern manage accounts on?"
           />
+          <FaqItem answer="Yes!" question="Can I connect this to my personal account?" />
           <FaqItem
-            answer="We recommend giving your intern an account of it's own. Today The Intern is optimized as a third-party community member that engages with your brand and personal accounts. In the future, we will offer other packages that work well for managing personal and brand accounts."
-            question="Can my intern post on behalf of my personal account?"
-          />
-          <FaqItem
-            answer="The Intern is currently in private alpha. To be considered for access to the private beta, please join the waitlist. We will get back to you if you are selected."
+            answer="The Intern is currently in private beta. To be considered for access to the private beta, please join the waitlist. We will get back to you if you are selected."
             question="How can I join the private beta?"
           />
           <FaqItem
             answer="No technical skills are required! The process of creating your intern is simple, and can be done from The Intern platform."
-            question="Do I need any technical skills to configure my intern?"
+            question="Do I need any technical skills to configure my automation?"
           />
           <FaqItem
             answer="We allow for custom personality configuration, or uploading an existing personality. Do you really love how a specific influencer or thought leader account posts? Upload it to your intern, and use that as a starter for their personality."
-            question="How do I configure a personality for my intern?"
+            question="How do I configure a personality for my account?"
           />
           <FaqItem
-            answer="We are activley working on automatic image generation. This feature will be released soon!"
+            answer="Accounts can post memes and images. We are working on allowing video content generation as well."
             question="Can my intern post images or videos?"
           />
         </Accordion>
