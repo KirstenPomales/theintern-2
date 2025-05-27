@@ -9,6 +9,7 @@ import { Newcta } from "@/components/newcta";
 import { Callout } from "@/components/callout";
 import { Footer } from "@/components/footer";
 import { Tada } from "@/components/tada";
+import { ReplyGuy } from "@/components/reply-guy";
 import { MarqueeSection } from "@/components/marquee";
 import { FeaturesLarge } from "@/components/features-large";
 
@@ -18,11 +19,8 @@ export default function HomePage() {
       <Header />
       <Hero />
       <Features />
+      <ReplyGuy />
       <FeaturesLarge />
-
-      <Callout />
-      <FeaturesSection />
-      <Tada />
 
       {/* <Testimonials /> */}
 

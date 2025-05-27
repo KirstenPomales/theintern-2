@@ -11,7 +11,7 @@ export function Callout() {
         <div className="flex flex-col items-center gap-x-6 gap-y-8 rounded-2xl border bg-card px-4 py-8 md:flex-row md:gap-y-14 md:px-10 md:py-20">
           <div className="flex flex-col items-start gap-6 lg:basis-3/5">
             <h2 className="max-w-2xl text-balance text-left font-heading text-2xl font-semibold tracking-tight sm:text-5xl">
-              An embedded community member
+              Automated community ambassadors
             </h2>
             <p className="max-w-lg text-left text-base text-muted-foreground sm:text-xl">
               Your intern creates thoughtful engagement with existing community members and brand

@@ -14,7 +14,7 @@ export function FeaturesLarge() {
             The Intern Dashboard
           </span>
           <h1 className="pb-5 text-center font-heading text-3xl font-bold  tracking-tight sm:text-5xl">
-            Create an Intern to Run Your Accounts&nbsp;
+            Automate Your X Account in 10 Minutes&nbsp;
           </h1>
         </div>
         <p className="flex-1 text-center text-lg text-muted-foreground">
@@ -32,7 +32,7 @@ export function FeaturesLarge() {
               Set Up Personality →
             </Badge>
             <h2 className="max-w-xl text-balance text-left font-heading text-xl font-semibold tracking-tight sm:text-4xl">
-              1. Create a unique personality
+              1. Create a unique personality or clone your own
             </h2>
 
             <p className="text-left text-lg text-muted-foreground sm:text-xl">
@@ -58,7 +58,7 @@ export function FeaturesLarge() {
               Configure Rules →
             </Badge>
             <h2 className="max-w-xl text-balance text-left font-heading text-xl font-semibold tracking-tight sm:text-4xl">
-              2. Give your intern guidelines & knowledge on your organization
+              2. Give content guidelines & knowledge on your organization
             </h2>
 
             <p className="text-left text-lg text-muted-foreground sm:text-xl">
@@ -95,7 +95,7 @@ export function FeaturesLarge() {
               Set Goals →
             </Badge>
             <h2 className="max-w-xl text-balance text-left font-heading text-xl font-semibold tracking-tight sm:text-4xl">
-              3. Give your Intern goals
+              3. Give your account goals
             </h2>
 
             <p className="text-left text-lg text-muted-foreground sm:text-xl">
@@ -122,7 +122,7 @@ export function FeaturesLarge() {
               Launch →
             </Badge>
             <h2 className="max-w-xl text-balance text-left font-heading text-xl font-semibold tracking-tight sm:text-4xl">
-              4. Launch your Intern and watch them go!
+              4. Launch your account and watch it grow!
             </h2>
 
             <p className="text-left text-lg text-muted-foreground sm:text-xl">

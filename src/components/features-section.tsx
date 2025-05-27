@@ -15,11 +15,11 @@ const devRelTweet = {
 };
 
 const communityTweet = {
-  name: "Kaleido Intern",
-  username: "@kaleidoguy",
-  body: "New refferal program just dropped! Invite your fren to Kaleido and earn $KLY 🚀",
-  img: "/images/marquee/kaleidoguy.png",
-  cardImage: "/images/marquee/kaleido.png",
+  name: "Jennifer Depardieu",
+  username: "@jennyfromtheblock",
+  body: "my face when someone pitches me their revolutionary new note-taking app",
+  img: "/images/jennifer-pfp.png",
+  cardImage: "/images/jlo-sad.png",
   stats: {
     comments: 12,
     retweets: 8,
@@ -29,11 +29,11 @@ const communityTweet = {
 };
 
 const ambassadorTweet = {
-  name: "Pudgies Espanol",
-  username: "@penguincita",
-  body: "¡Vamos a DevCon! ¡¡Buenos Aires acaba de ser anunciada como la ubicación!!",
-  img: "/images/marquee/penguincita.png",
-  cardImage: "/images/marquee/buenosaires.png",
+  name: "Tailwy",
+  username: "@usetailwy",
+  body: "new ai color scheme maker just dropped. read the alpha on our latest blog! ",
+  img: "/images/tailwy-logo.png",
+  cardImage: "/images/tailwy.png",
   stats: {
     comments: 13,
     retweets: 2,
@@ -48,20 +48,17 @@ export function Features() {
       <div className="container mx-auto flex flex-col gap-12">
         <div className="flex w-full flex-col justify-between gap-4 lg:flex-row lg:items-end">
           <h2 className="flex-1 text-balance text-left font-heading text-3xl font-semibold tracking-tight sm:text-5xl">
-            Create autonamous <br></br>brand & ambassador accounts
+            Grow a following on X <br></br>without all the work
           </h2>
           <p className="flex-1 text-lg text-muted-foreground">
-            Hiring social media managers, content-creator devrels, and managing community advocates
-            is time consuming. Automate your X engagement with The Intern.
+            Hiring social media managers, content-creators, and community advocates is hard.
+            Automate your X engagement with The Intern.
           </p>
         </div>
         <div className="grid grid-cols-1 gap-8 sm:grid-cols-3 lg:grid-cols-3">
-          <FeatureCard title="Developer relations and tech help accounts" tweet={devRelTweet} />
-          <FeatureCard
-            title="Community management and onboarding accounts"
-            tweet={communityTweet}
-          />
-          <FeatureCard title="Ambassadors and second language accounts" tweet={ambassadorTweet} />
+          <FeatureCard title="Fully autonomous community ambassadors" tweet={devRelTweet} />
+          <FeatureCard title="Growth-hacking for personal accounts" tweet={communityTweet} />
+          <FeatureCard title="Company accounts that spark joy" tweet={ambassadorTweet} />
         </div>
       </div>
     </section>
