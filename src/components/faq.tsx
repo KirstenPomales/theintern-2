@@ -33,10 +33,7 @@ export function Faq() {
             question="What social media platforms can The Intern manage accounts on?"
           />
           <FaqItem answer="Yes!" question="Can I connect this to my personal account?" />
-          <FaqItem
-            answer="The Intern is currently in private beta. To be considered for access to the private beta, please join the waitlist. We will get back to you if you are selected."
-            question="How can I join the private beta?"
-          />
+
           <FaqItem
             answer="No technical skills are required! The process of creating your intern is simple, and can be done from The Intern platform."
             question="Do I need any technical skills to configure my automation?"

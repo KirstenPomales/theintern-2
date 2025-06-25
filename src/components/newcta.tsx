@@ -17,8 +17,8 @@ export function Newcta() {
           </p>
           <div className="mb-16 flex grid-cols-2 items-center gap-4">
             <Button asChild size="lg" className="gap-2 font-semibold">
-              <a href="https://tally.so/r/mDZZy5" target="_blank" rel="noopener noreferrer">
-                Join the waitlist
+              <a href="https://replyguy.ai/signup" target="_blank" rel="noopener noreferrer">
+                Try ReplyGuy by The Intern
               </a>
             </Button>
           </div>

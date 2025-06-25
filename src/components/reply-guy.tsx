@@ -57,8 +57,8 @@ export function ReplyGuy() {
 
             <div className="flex w-full flex-col gap-4 sm:w-auto sm:flex-row">
               <Button asChild size="lg" className="gap-2 font-semibold">
-                <a href="https://tally.so/r/mDZZy5" target="_blank" rel="noopener noreferrer">
-                  Join the waitlist
+                <a href="https://replyguy.ai/signup" target="_blank" rel="noopener noreferrer">
+                  Try ReplyGuy by The Intern
                 </a>
               </Button>
             </div>

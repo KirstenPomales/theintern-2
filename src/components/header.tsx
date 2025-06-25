@@ -22,7 +22,7 @@ export function Header() {
             <div className="flex flex-1 items-center justify-center gap-6">
               <nav className="hidden items-center justify-end gap-10 md:flex">
                 <NavItem href="#about" label="About" />
-                <NavItem href="#features" label="Features" />
+                <NavItem href="#pricing" label="Pricing" />
                 {/* <NavItem href="@pricing" label="Pricing" /> */}
                 <NavItem href="https://x.com/theinterndotfun" label="Socials" />
               </nav>
@@ -35,8 +35,8 @@ export function Header() {
                   </Link>
                 </Button> */}
                 <Button asChild size="lg" className="gap-2 font-semibold">
-                  <a href="https://tally.so/r/mDZZy5" target="_blank" rel="noopener noreferrer">
-                    Join the waitlist
+                  <a href="https://replyguy.ai/signup" target="_blank" rel="noopener noreferrer">
+                    Try ReplyGuy by The Intern
                   </a>
                 </Button>
               </div>
@@ -45,12 +45,12 @@ export function Header() {
               <div className="container mt-6 rounded-b-lg bg-background py-4 text-foreground shadow-xl">
                 <nav className="flex flex-col gap-1 pt-2">
                   <MobileNavItem href="#about" label="About" />
-                  <MobileNavItem href="#features" label="Features" />
+                  <MobileNavItem href="#pricing" label="Pricing" />
                   {/* <MobileNavItem href="@pricing" label="Pricing" /> */}
                   <MobileNavItem href="https://x.com/theinterndotfun" label="Socials" />
                   <Button asChild size="lg" className="gap-2 font-semibold">
-                    <a href="https://tally.so/r/mDZZy5" target="_blank" rel="noopener noreferrer">
-                      Join the waitlist
+                    <a href="https://replyguy.ai/signup" target="_blank" rel="noopener noreferrer">
+                      Try ReplyGuy by The Intern
                     </a>
                   </Button>
                 </nav>

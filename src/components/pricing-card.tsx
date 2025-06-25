@@ -15,6 +15,8 @@ interface PricingCardProps {
   feature3: string;
   feature4: string;
   feature5: string;
+  buttonText: string;
+  buttonLink: string;
   className?: string;
 }
 
@@ -28,6 +30,8 @@ export function PricingCard({
   feature3,
   feature4,
   feature5,
+  buttonText,
+  buttonLink,
   className,
 }: PricingCardProps) {
   return (
@@ -62,8 +66,8 @@ export function PricingCard({
           <PricingFeatureItem text={feature5} />
         </ul>
         <Button asChild size="lg" className="gap-2 font-semibold">
-          <a href="https://tally.so/r/mDZZy5" target="_blank" rel="noopener noreferrer">
-            Join the waitlist
+          <a href={buttonLink} target="_blank" rel="noopener noreferrer">
+            {buttonText}
           </a>
         </Button>
       </div>

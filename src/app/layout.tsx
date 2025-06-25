@@ -43,13 +43,6 @@ export default function RootLayout({
           fontHeading.variable,
         )}
       >
-        <PrivateBetaBanner
-          message="Welcome to The Intern private alpha! Get exclusive early access now."
-          link={{
-            text: "Join the waitlist",
-            href: "https://tally.so/r/mDZZy5",
-          }}
-        />
         {children}
       </body>
     </html>

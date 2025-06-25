@@ -4,14 +4,14 @@ import { Features } from "@/components/features-section";
 import { FeaturesSection } from "@/components/features-section-2";
 import { Testimonials } from "@/components/testimonials";
 import { Faq } from "@/components/faq";
-import { Pricing } from "@/components/pricing";
+
 import { Newcta } from "@/components/newcta";
 import { Callout } from "@/components/callout";
 import { Footer } from "@/components/footer";
 import { Tada } from "@/components/tada";
 import { ReplyGuy } from "@/components/reply-guy";
 import { MarqueeSection } from "@/components/marquee";
-import { FeaturesLarge } from "@/components/features-large";
+import { Pricing } from "@/components/pricing";
 
 export default function HomePage() {
   return (
@@ -20,8 +20,7 @@ export default function HomePage() {
       <Hero />
       <Features />
       <ReplyGuy />
-      <FeaturesLarge />
-
+      <Pricing />
       {/* <Testimonials /> */}
 
       <Faq />

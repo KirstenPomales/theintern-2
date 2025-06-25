@@ -35,8 +35,8 @@ export function BlogHeader() {
                   </Link>
                 </Button> */}
                 <Button asChild size="lg" className="gap-2 font-semibold">
-                  <a href="https://tally.so/r/mDZZy5" target="_blank" rel="noopener noreferrer">
-                    Join the waitlist
+                  <a href="https://replyguy.ai/signup" target="_blank" rel="noopener noreferrer">
+                    Try ReplyGuy by The Intern
                   </a>
                 </Button>
               </div>
@@ -49,8 +49,8 @@ export function BlogHeader() {
                   {/* <MobileNavItem href="@pricing" label="Pricing" /> */}
                   <MobileNavItem href="https://x.com/theinterndotfun" label="Socials" />
                   <Button asChild size="lg" className="gap-2 font-semibold">
-                    <a href="https://tally.so/r/mDZZy5" target="_blank" rel="noopener noreferrer">
-                      Join the waitlist
+                    <a href="https://replyguy.ai/signup" target="_blank" rel="noopener noreferrer">
+                      Try ReplyGuy by The Intern
                     </a>
                   </Button>
                 </nav>
